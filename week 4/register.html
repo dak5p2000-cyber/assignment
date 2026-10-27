@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Register for the Tech Club">
+  <meta name="author" content="Your Name">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27><text y=%27.9em%27 font-size=%2790%27>💻</text></svg>">
+  <title>Tech Club - Register</title>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="about.html">About</a> |
+    <a href="register.html">Register</a> |
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <h1>Register</h1>
+
+  <form action="#" method="post">
+
+    
+    <p>
+      <label for="fullname">Full name:</label><br>
+      <input type="text" id="fullname" name="fullname" placeholder="Enter your name" required>
+    </p>
+
+    <p>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" placeholder="you@example.com" required>
+    </p>
+
+    <p>
+      <label for="password">Password:</label><br>
+      <input type="password" id="password" name="password" minlength="6" required>
+    </p>
+
+    
+    <p>
+      <label for="dob">Date of birth:</label><br>
+      <input type="date" id="dob" name="dob">
+    </p>
+
+    <p>
+      <label for="phone">Phone number:</label><br>
+      <input type="tel" id="phone" name="phone" placeholder="10 digit number">
+    </p>
+
+    <p>
+      Gender:<br>
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Female</label>
+      <input type="radio" id="other" name="gender" value="other">
+      <label for="other">Other</label>
+    </p>
+
+    <p>
+      Interests:<br>
+      <input type="checkbox" id="web" name="interest" value="web">
+      <label for="web">Web Development</label>
+      <input type="checkbox" id="dsa" name="interest" value="dsa">
+      <label for="dsa">DSA</label>
+      <input type="checkbox" id="design" name="interest" value="design">
+      <label for="design">Design</label>
+    </p>
+
+    <p>
+      <label for="course">Course:</label><br>
+      <select id="course" name="course">
+        <option value="bca">BCA</option>
+        <option value="btech">B.Tech</option>
+        <option value="bsc">B.Sc</option>
+      </select>
+    </p>
+
+    <p>
+      <label for="reason">Why do you want to join?</label><br>
+      <textarea id="reason" name="reason" rows="4" cols="35"></textarea>
+    </p>
+
+    <button type="submit">Join Club</button>
+
+  </form>
+
+</body>
+</html>
